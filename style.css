@@ -1,0 +1,59 @@
+:root{
+--bg:#ffffff;
+--text:#111;
+--accent:#ececec;
+}
+
+.dark{
+--bg:#0f0f0f;
+--text:#ffffff;
+--accent:#1a1a1a;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:var(--bg);
+color:var(--text);
+transition:0.3s;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+font-size:22px;
+}
+
+button{
+background:var(--accent);
+border:none;
+padding:8px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+#leaks{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.leak{
+margin-bottom:40px;
+}
+
+.leak img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.leak h2{
+margin:5px 0;
+}
+
+.leak p{
+opacity:0.8;
+}
